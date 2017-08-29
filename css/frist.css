@@ -1,1 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
 
+span {
+	color: goldenrod;
+}
+
+ul {
+	text-align: center;
+	list-style: none;
+}
+
+.float-l{
+	float: left;
+}
+.float-r{
+	float: right;
+}
+.float-c{
+	clear: both;
+}
+
+.all {
+	margin-top: 15%;
+	text-align: center;
+}
+
+.img {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 50%;
+	border: 2px solid gold;
+}
+
+.info {
+	padding: 10px;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.name {
+	font-family: "楷体";
+	font-size: 50px;
+	color: gold;
+}
+
+.contact {
+	margin-top: 2%;
+	color: gold;
+}
+
+.main {
+	width: 70%;
+	margin: 7% auto 0;
+	text-align: center;
+}
+.main>div{
+	width: 20%;
+	height: 30%;
+	background-color: red;
+	overflow: hidden;
+}
+.center{
+	display: inline-block;
+}
